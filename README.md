@@ -1,2 +1,2 @@
 # HeadFirstJava
-Exercises&amp;Practice in Head First Java
+Exercise&amp;Practice in Head First Java
