@@ -82,7 +82,7 @@ public class QuizCardPlayer{
 		try{
 			BufferedReader reader = new BufferedReader(new FileReader(file));
 			String line = null;
-			while((line = reader.readline())!= null){
+			while((line = reader.readLine())!= null){
 				makeCard(line);
 			}
 			reader.close();
@@ -109,6 +109,8 @@ public class QuizCardPlayer{
 		nextButton.setText("Show Answer");
 		isShowAnswer = true;
 	}
+
+
 
 
 }
